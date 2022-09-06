@@ -3,7 +3,7 @@ import { IsEmail, IsOptional, IsString } from "class-validator"
 export class EditUserDto {
     @IsEmail()
     @IsOptional()
-    email?:string
+    email?: string
 
     @IsString()
     @IsOptional()
@@ -11,5 +11,5 @@ export class EditUserDto {
 
     @IsString()
     @IsOptional()
-    lastName?:string
+    lastName?: string
 }
